@@ -8,9 +8,9 @@ license = "MIT"
 keywords = ["glacierdb", "ogd", "database", "msgpack"]
 categories = ["database"]
 readme = "README.md"
-repository = "https://forge.openglacier.org/openglacier/platform"
+repository = "https://github.com/openglacier/glacierdb-rust"
 homepage = "https://openglacier.org"
-include = ["src/**", "examples/**", "tests/**", "README.md", "Cargo.toml"]
+include = ["src/**", "examples/**", "tests/**", "README.md", "LICENSE", "Cargo.toml"]
 
 [dependencies]
 serde = "1"
