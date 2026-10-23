@@ -1,0 +1,19 @@
+[package]
+name = "glacierdb"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80"
+description = "Rust driver for glacierdb (ogd): framed MessagePack over TCP, streamed results, .ogid identities, byte-bounded bulk loading"
+license = "MIT"
+keywords = ["glacierdb", "ogd", "database", "msgpack"]
+categories = ["database"]
+readme = "README.md"
+repository = "https://forge.openglacier.org/openglacier/platform"
+homepage = "https://openglacier.org"
+include = ["src/**", "examples/**", "tests/**", "README.md", "Cargo.toml"]
+
+[dependencies]
+serde = "1"
+serde_json = { version = "1", features = ["preserve_order"] }
+rmp-serde = "1"
+base64 = "0.22"
